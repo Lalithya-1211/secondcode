@@ -16,7 +16,7 @@ app.get('/calculator', function (req, res) {
     res.end(JSON.stringify({ result: "The value is " + addition }));
 })
 
-var server = app.listen(800, function () {
+var server = app.listen(8000, function () {
     var host = server.address().address
     var port = server.address().port
     //console.log("Application listening at http://%s:%s", host, port);
